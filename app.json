@@ -1,0 +1,40 @@
+{
+  "name": "JayBee TikTok İndirme Botu",
+  "description": "TikTok videolarını filigran olmadan indirmek için bir Telegram botu",
+  "logo" : "https://telegra.ph/file/05bae0725724007c72fa1.jpg",
+  "success_url" : "https://t.me/theosttindiricibot",
+  "keywords": [
+    "telegram",
+    "bot",
+    "tiktok",
+    "jaybee"
+  ],
+  "repository": "https://github.com/TerminalWarlord/TikTok-Downloader-Bot",
+  "website": "https://emretekno.tk",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot Bot Token, get this value from @BotFather.",
+      "value": "5726369800:AAEYLQiD4FzRr8iJxcB1lAFFGA6WKYNiXqY"
+    },
+    "API_KEY": {
+      "description": "Your APP API KEY, get this from https://my.telegram.org",
+      "value": "13100218"
+    },
+    "API_HASH": {
+      "description": "Your APP HASH, get this from https://my.telegram.org",
+     "value": "8f0fb4b161a3fdfc291b798572ad5ead"
+    },
+    "CHANNEL_URL": {
+      "description": "URL of your Telegram channel link.",
+      "value": "https://t.me/theostekno"
+    },
+    "BOT_URL": {
+      "description": "Username of your Telegram Bot (without @). Example: JayBeeTikTokBot",
+      "value": "theosttindiricibot"
+    },
+    "WORKERS": {
+      "description": "Number of threads to use, this depends on usage.  4 is the recommended (and default) amount, but your experience may vary.",
+      "value": "4"
+    }
+  }
+}
